@@ -26,7 +26,7 @@ const copy = {
   confirmText: 'Toque na foto para concluir.',
   missionComplete: 'MISSION COMPLETE',
   missionSubtext: 'Date aceito com sucesso.',
-  finaleText: 'Obrigado por aceitar essa missão comigo, Nicolle ❤️',
+  finaleText: 'Obrigado por aceitar essa missão comigo, NIcollinha Paçoca ❤️',
 };
 
 const scenes = {
