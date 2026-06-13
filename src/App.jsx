@@ -276,7 +276,7 @@ function SushiTransitionScene() {
 function SushiPlatter() {
   return (
     <div className="sushi-platter" aria-hidden="true">
-      <img className="sushi-image" src={asset('sushi.png')} alt="" />
+      <img className="sushi-image" src={asset('natori.png')} alt="" />
       <div className="sushi-glow" />
     </div>
   );
