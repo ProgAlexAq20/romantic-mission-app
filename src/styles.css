@@ -787,24 +787,115 @@ button {
 
 @media (max-width: 720px) {
   .scene {
-    padding: 18px 14px;
+    padding: 12px 10px 18px;
+    align-items: start;
+  }
+
+  .boot-stack,
+  .invite-card,
+  .destination-shell,
+  .complete-shell {
+    width: min(100%, 100vw - 20px);
+  }
+
+  .boot-card,
+  .invite-card,
+  .destination-shell,
+  .complete-shell {
+    border-radius: 24px;
+  }
+
+  .boot-card {
+    padding: 18px 16px 20px;
+  }
+
+  .boot-card h1 {
+    font-size: clamp(1.85rem, 8vw, 2.7rem);
   }
 
   .boot-video-shell {
-    width: min(56vw, 180px);
+    width: min(48vw, 170px);
+  }
+
+  .invite-copy h2 {
+    font-size: clamp(1.55rem, 7vw, 2.45rem);
+    max-width: 14ch;
+  }
+
+  .subcopy,
+  .boot-line,
+  .sales-card,
+  .memory-caption,
+  .final-message {
+    font-size: 0.98rem;
+    line-height: 1.5;
   }
 
   .decision-stage {
-    min-height: 260px;
+    min-height: 230px;
+    margin-top: 18px;
+  }
+
+  .yes-button,
+  .no-button,
+  .replay-button {
+    padding: 15px 22px;
+    font-size: 0.95rem;
+  }
+
+  .decision-stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
   }
 
   .no-button {
-    right: 2%;
-    top: 14%;
+    position: relative;
+    right: auto;
+    top: auto;
+    align-self: flex-end;
   }
 
   .cinema-video {
-    height: 48vh;
+    height: 42vh;
+  }
+
+  .destination-showcase {
+    min-height: 180px;
+  }
+
+  .sushi-platter {
+    width: min(100%, 92vw);
+  }
+
+  .sales-card {
+    padding: 16px 16px 8px;
+  }
+
+  .memory-frame {
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 22px;
+  }
+
+  .memory-photo {
+    aspect-ratio: 0.95;
+    padding: 10px;
+    border-radius: 18px;
+  }
+
+  .memory-photo-inner {
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .memory-photo-inner strong {
+    font-size: clamp(1.05rem, 5vw, 1.5rem);
+  }
+
+  .mission-complete {
+    font-size: clamp(2.25rem, 11vw, 4rem);
   }
 }
 
