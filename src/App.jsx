@@ -22,11 +22,11 @@ const copy = {
   destinationSubtitle: 'Seu próximo objetivo é:',
   restaurant: 'Natori Sushi',
   salesText:
-    'Chegamos ao local escolhido para a missão.\n\nUm restaurante japonês incrível, com pratos preparados com cuidado, ingredientes frescos e aquele clima perfeito para transformar uma noite comum em uma lembrança especial.\n\nO Natory Sushi combina tudo o que uma missão de sucesso precisa:\n\n🍣 Sushi delicioso\n✨ Ambiente agradável\n❤️ Ótima companhia\n🎯 Chance altíssima de criar momentos inesquecíveis\n\nSeu objetivo agora é confirmar a missão.',
-  confirmText: 'Toque no sushi para concluir.',
+    'Chegamos ao local escolhido para a missão.\n\nO Natori Sushi é aquele tipo de lugar que já chega com clima de ocasião especial: comida boa, ambiente acolhedor e uma energia perfeita para uma noite leve com você.\n\nPensei nesse lugar porque combina com a gente:\n\n🍣 Sushi delicioso\n✨ Ambiente agradável\n❤️ Boa companhia\n🎯 Chance alta de virar uma lembrança daquelas\n\nSe você topar, eu prometo caprichar no resto da missão.',
+  confirmText: 'Toque na foto para concluir.',
   missionComplete: 'MISSION COMPLETE',
   missionSubtext: 'Date aceito com sucesso.',
-  finaleText: 'Obrigado por aceitar essa missão ❤️',
+  finaleText: 'Obrigado por aceitar essa missão comigo, Nicolle ❤️',
 };
 
 const scenes = {
@@ -276,7 +276,7 @@ function SushiTransitionScene() {
 function SushiPlatter() {
   return (
     <div className="sushi-platter" aria-hidden="true">
-      <img className="sushi-image" src={asset('sushi.png')} alt="" />
+      <img className="sushi-image" src={asset('natori.png')} alt="" />
       <div className="sushi-glow" />
     </div>
   );
